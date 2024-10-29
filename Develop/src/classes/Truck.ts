@@ -64,7 +64,7 @@ class Truck extends Vehicle {
     // DONE! If it is not, log that the vehicle is too heavy to be towed
   }
 
-  // TODO: Override the printDetails method from the Vehicle class
+  // DONE! Override the printDetails method from the Vehicle class
   override printDetails(): void {
     super.printDetails();
     console.log(`VIN: ${this.vin}`);
@@ -79,9 +79,9 @@ class Truck extends Vehicle {
 
 
   }
-  // TODO: The method should call the printDetails method of the parent class
-  // TODO: The method should log the details of the Truck
-  // TODO: The details should include the VIN, make, model, year, weight, top speed, color, towing capacity, and wheels
+  // DONE! The method should call the printDetails method of the parent class
+  // DONE! The method should log the details of the Truck
+  // DONE! The details should include the VIN, make, model, year, weight, top speed, color, towing capacity, and wheels
 }
 
 // Export the Truck class as the default export
